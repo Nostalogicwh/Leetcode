@@ -8,7 +8,7 @@
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         a = ListNode() # 创建链表
-        l3 = a  # 
+        l3 = a  # l3指向a的首节点地址
         c = 0  # 进位
         while l1 or l2:
             x=l1.val if l1 else 0  # 没有下一节点时取0
