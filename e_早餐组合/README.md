@@ -8,5 +8,7 @@
 
 统计食物里面价格小于i的个数，arr[i]  
 遍历饮料  
->arr[lt],lt = x - drinks
+>arr[lt],lt = x - drinks  
+
+
 arr[lt]即代表当前饮料与食物的组合个数，累加即可
