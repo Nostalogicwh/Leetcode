@@ -7,4 +7,5 @@
   stack.append(None)  
   stack.append(node.right)  
   stack.append(node.left)
-最后在pop出来
+
+最后再pop出来
